@@ -1,0 +1,156 @@
+2020/03/20 13:17:57 This is a test log entry
+2020/03/20 13:18:57 This is a test log entry
+2020/03/20 13:19:46 This is a test log entry
+2020/03/20 13:21:16 This is a test log entry
+2020/03/20 13:22:14 This is a test log entry
+2020/03/20 13:22:14 ok ok ok ok 
+2020/03/20 13:22:14 fsafsafsafsafsfaf
+2020/03/20 14:51:50 This is a test log entry
+2020/03/20 14:51:50 ok ok ok ok 
+2020/03/20 14:51:50 fsafsafsafsafsfaf
+2020/03/20 14:52:05 http: superfluous response.WriteHeader call from main.(*MainServer).CreateFeedback (main.go:64)
+2020/03/20 14:52:05 wrong data from client
+2020/03/20 14:52:05 cant't add feedback:ERROR: syntax error at or near ":" (SQLSTATE 42601)
+2020/03/20 14:52:05 can't create the feedbackERROR: syntax error at or near ":" (SQLSTATE 42601)
+2020/03/20 14:52:05 http: superfluous response.WriteHeader call from main.(*MainServer).CreateFeedback (main.go:73)
+2020/03/20 15:18:13 This is a test log entry
+2020/03/20 15:18:13 ok ok ok ok 
+2020/03/20 15:18:13 fsafsafsafsafsfaf
+2020/03/20 15:18:22 cant't add feedback:ERROR: syntax error at or near ":" (SQLSTATE 42601)
+2020/03/20 15:18:22 can't create the feedbackERROR: syntax error at or near ":" (SQLSTATE 42601)
+2020/03/20 15:19:53 This is a test log entry
+2020/03/20 15:19:53 ok ok ok ok 
+2020/03/20 15:19:53 fsafsafsafsafsfaf
+2020/03/20 15:19:57 cant't add feedback:ERROR: syntax error at or near ":" (SQLSTATE 42601)
+2020/03/20 15:19:57 can't create the feedbackERROR: syntax error at or near ":" (SQLSTATE 42601)
+2020/03/20 15:21:28 This is a test log entry
+2020/03/20 15:21:28 ok ok ok ok 
+2020/03/20 15:21:28 fsafsafsafsafsfaf
+2020/03/20 15:21:33 cant't add feedback:ERROR: INSERT has more target columns than expressions (SQLSTATE 42601)
+2020/03/20 15:21:33 can't create the feedbackERROR: INSERT has more target columns than expressions (SQLSTATE 42601)
+2020/03/20 15:22:38 This is a test log entry
+2020/03/20 15:22:38 ok ok ok ok 
+2020/03/20 15:22:38 fsafsafsafsafsfaf
+2020/03/20 15:22:40 cant't add feedback:ERROR: INSERT has more target columns than expressions (SQLSTATE 42601)
+2020/03/20 15:22:40 can't create the feedbackERROR: INSERT has more target columns than expressions (SQLSTATE 42601)
+2020/03/20 15:23:29 This is a test log entry
+2020/03/20 15:23:29 ok ok ok ok 
+2020/03/20 15:23:29 fsafsafsafsafsfaf
+2020/03/20 15:23:33 cant't add feedback:ERROR: INSERT has more target columns than expressions (SQLSTATE 42601)
+2020/03/20 15:23:33 can't create the feedbackERROR: INSERT has more target columns than expressions (SQLSTATE 42601)
+2020/03/20 15:24:50 This is a test log entry
+2020/03/20 15:24:50 ok ok ok ok 
+2020/03/20 15:24:50 fsafsafsafsafsfaf
+2020/03/20 15:33:14 This is a test log entry
+2020/03/20 15:33:14 ok ok ok ok 
+2020/03/20 15:33:14 fsafsafsafsafsfaf
+2020/03/20 15:50:14 This is a test log entry
+2020/03/20 15:50:14 ok ok ok ok 
+2020/03/20 15:50:14 fsafsafsafsafsfaf
+2020/03/20 17:01:14 This is a test log entry
+2020/03/20 17:03:12 This is a test log entry
+2020/03/20 17:19:29 This is a test log entry
+2020/03/20 17:20:07 can't get all feedbackERROR: syntax error at or near "," (SQLSTATE 42601)
+2020/03/20 17:20:07 http: superfluous response.WriteHeader call from main.(*MainServer).DeleteFeedback (main.go:65)
+2020/03/20 17:21:02 can't get all feedbackERROR: syntax error at or near "," (SQLSTATE 42601)
+2020/03/20 17:21:02 http: superfluous response.WriteHeader call from main.(*MainServer).DeleteFeedback (main.go:65)
+2020/03/20 17:22:53 can't get all feedbackERROR: syntax error at or near "," (SQLSTATE 42601)
+2020/03/20 17:22:53 http: superfluous response.WriteHeader call from main.(*MainServer).DeleteFeedback (main.go:65)
+2020/03/20 17:23:12 This is a test log entry
+2020/03/20 17:24:16 can't delete feedbackERROR: syntax error at or near "," (SQLSTATE 42601)
+2020/03/20 17:24:16 http: superfluous response.WriteHeader call from main.(*MainServer).DeleteFeedback (main.go:65)
+2020/03/20 17:32:28 This is a test log entry
+2020/03/20 17:32:58 can't delete feedbackERROR: syntax error at or near "," (SQLSTATE 42601)
+2020/03/20 17:32:58 http: superfluous response.WriteHeader call from main.(*MainServer).DeleteFeedback (main.go:69)
+2020/03/20 17:34:17 This is a test log entry
+2020/03/20 17:34:23 f38b7477-ed8a-4cc0-8644-6dd6523c3c66
+2020/03/20 17:34:23 can't delete feedbackERROR: syntax error at or near "," (SQLSTATE 42601)
+2020/03/20 17:34:23 http: superfluous response.WriteHeader call from main.(*MainServer).DeleteFeedback (main.go:70)
+2020/03/20 17:39:00 This is a test log entry
+2020/03/20 17:39:08 f38b7477-ed8a-4cc0-8644-6dd6523c3c66
+2020/03/20 17:39:40 ce97f594-3d8d-41ff-b58e-6490dcf39f63
+2020/03/20 17:40:14 644f720f-e45e-450e-8d70-e62c95b6e2b3
+2020/03/20 17:42:38 c0a94db7-1bd4-4c75-a064-a2d890896089
+2020/03/20 17:55:24 This is a test log entry
+2020/03/20 18:22:25 This is a test log entry
+2020/03/20 18:39:23 This is a test log entry
+2020/03/20 18:40:31 59cdf7a8-bf53-4988-a7b5-087a7963e104
+2020/03/20 19:08:21 This is a test log entry
+2020/03/20 19:59:22 This is a test log entry
+2020/03/20 19:59:28 http: superfluous response.WriteHeader call from main.(*MainServer).CreateFeedback (main.go:96)
+2020/03/20 19:59:28 wrong data from client
+2020/03/20 20:00:39 0ee99c34-befe-422f-b693-0443f760ce3e
+2020/03/21 18:51:07 This is a test log entry
+2020/03/21 18:53:05 c8285f00-4b82-4650-a3fb-078076964277
+2020/03/21 20:49:47 This is a test log entry
+2020/03/21 20:49:47 can't create db feedback
+2020/03/21 20:49:56 This is a test log entry
+2020/03/21 20:49:56 can't create db feedback
+2020/03/21 20:51:37 This is a test log entry
+2020/03/21 20:55:55 cant't add feedback:ERROR: relation "feedback" does not exist (SQLSTATE 42P01)
+2020/03/21 20:55:55 creating the feedback error:ERROR: relation "feedback" does not exist (SQLSTATE 42P01)
+2020/03/21 21:08:01 This is a test log entry
+2020/03/21 21:08:20 cant't add feedback:ERROR: relation "feedback" does not exist (SQLSTATE 42P01)
+2020/03/21 21:08:20 creating the feedback error:ERROR: relation "feedback" does not exist (SQLSTATE 42P01)
+2020/03/21 21:11:13 This is a test log entry
+2020/03/21 21:11:13 can't create db feedbackERROR: syntax error at or near "nul" (SQLSTATE 42601)
+2020/03/21 21:13:34 This is a test log entry
+2020/03/21 21:14:54 e983e081-d68d-4898-815c-ebc0b8dc0027
+2020/03/21 21:51:53 This is a test log entry
+2020/03/21 21:52:27 e5610dcd-3be8-448c-b810-798a8c4fe7d7
+2020/03/21 21:52:27 can't update feedbackERROR: syntax error at or near "$" (SQLSTATE 42601)
+2020/03/21 21:52:27 can't update feedback ...ERROR: syntax error at or near "$" (SQLSTATE 42601)
+2020/03/21 21:52:27 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 21:52:56 This is a test log entry
+2020/03/21 21:53:24 50de13c1-7834-4466-bccc-0d41e5e7e57b
+2020/03/21 21:53:24 can't update feedbackERROR: syntax error at or near "$" (SQLSTATE 42601)
+2020/03/21 21:53:24 can't update feedback ...ERROR: syntax error at or near "$" (SQLSTATE 42601)
+2020/03/21 21:53:24 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 21:54:17 This is a test log entry
+2020/03/21 21:54:56 d8fb09ea-fab6-4ed9-9551-57347690b9db
+2020/03/21 21:54:56 can't update feedbackERROR: syntax error at or near "$" (SQLSTATE 42601)
+2020/03/21 21:54:56 can't update feedback ...ERROR: syntax error at or near "$" (SQLSTATE 42601)
+2020/03/21 21:54:56 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:01:18 This is a test log entry
+2020/03/21 22:01:58 d75401ac-fb1c-46b3-ae19-1b47b7edf8ed
+2020/03/21 22:01:58 can't update feedbackERROR: column "feedback_text" of relation "feedback" does not exist (SQLSTATE 42703)
+2020/03/21 22:01:58 can't update feedback ...ERROR: column "feedback_text" of relation "feedback" does not exist (SQLSTATE 42703)
+2020/03/21 22:01:58 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:05:26 This is a test log entry
+2020/03/21 22:06:05 09531b84-8924-4015-b8a9-d21116033ef9
+2020/03/21 22:06:05 can't update feedbackexpected 6 arguments, got 1
+2020/03/21 22:06:05 can't update feedback ...expected 6 arguments, got 1
+2020/03/21 22:06:05 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:07:19 This is a test log entry
+2020/03/21 22:07:48 646275a6-1c52-446d-b0e6-46abecd2569e
+2020/03/21 22:07:48 can't update feedbackexpected 5 arguments, got 1
+2020/03/21 22:07:48 can't update feedback ...expected 5 arguments, got 1
+2020/03/21 22:07:48 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:16:23 This is a test log entry
+2020/03/21 22:16:46 d6216945-7b3b-414f-a003-c6d3dcc53f9a
+2020/03/21 22:16:46 can't update feedbackexpected 6 arguments, got 1
+2020/03/21 22:16:46 can't update feedback ...expected 6 arguments, got 1
+2020/03/21 22:16:46 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:20:20 This is a test log entry
+2020/03/21 22:25:29 This is a test log entry
+2020/03/21 22:26:34 6f11545e-1760-4f7b-9e2f-fe7d92f08441
+2020/03/21 22:26:34 can't update feedbackexpected 6 arguments, got 1
+2020/03/21 22:26:34 can't update feedback ...expected 6 arguments, got 1
+2020/03/21 22:26:34 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:27:29 This is a test log entry
+2020/03/21 22:28:31 5bf4f7ca-511d-41c0-ae42-91766ad86c69
+2020/03/21 22:28:31 can't update feedbackexpected 6 arguments, got 1
+2020/03/21 22:28:31 can't update feedback ...expected 6 arguments, got 1
+2020/03/21 22:28:31 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:29:36 This is a test log entry
+2020/03/21 22:30:25 29eb0dd0-6443-4542-98d4-7824c438aed2
+2020/03/21 22:30:25 can't update feedbackexpected 6 arguments, got 1
+2020/03/21 22:30:25 can't update feedback ...expected 6 arguments, got 1
+2020/03/21 22:30:25 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:101)
+2020/03/21 22:33:45 This is a test log entry
+2020/03/21 23:01:16 This is a test log entry
+2020/03/21 23:15:23 This is a test log entry
+2020/03/21 23:15:57 c60546d3-14b3-44c4-ac73-8d4590ccc0eb
+2020/03/21 23:15:57 cant't update feedback:cannot convert 0 to UUID
+2020/03/21 23:15:57 can't update feedback ...cannot convert 0 to UUID
+2020/03/21 23:15:57 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:103)

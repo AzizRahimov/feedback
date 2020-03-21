@@ -1,0 +1,1 @@
+UPDATE feedback set removed=true where id= $1 ;

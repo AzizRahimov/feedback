@@ -1,0 +1,37 @@
+POST http://localhost:9995
+###
+
+POST http://localhost:9995/feedback
+Content-Type: application/json
+
+{
+  "feedback_topic": "не помыл посуду",
+  "feedback_by": "Dasha Romanova",
+  "feedback_to": "Vasya Petrov",
+  "feedback_text": "не помыл посуду после того как поел!",
+  "score": 2
+
+}
+###
+
+
+
+
+
+GET http://localhost:9995/feedback/all
+
+###
+POST http://localhost:9995/feedback/c60546d3-14b3-44c4-ac73-8d4590ccc0eb
+
+{"feedback_topic": "Мусsор",
+  "feedback_by": "Daria Markova",
+  "feedback_to": "SSSSSSS",
+  "feedback_text": "Увидел, что мусор полон и выкинул",
+  "score": 5
+}
+###
+DELETE http://localhost:9995/feedback/e983e081-d68d-4898-815c-ebc0b8dc0027
+
+
+
+###
