@@ -1,16 +1,14 @@
-POST http://localhost:9995
+POST http://localhost:9993
 ###
 
-POST http://localhost:9995/feedback
+POST http://localhost:9993/feedback
 Content-Type: application/json
 
-{
-  "feedback_topic": "не помыл посуду",
-  "feedback_by": "Dasha Romanova",
+{"feedback_topic": "Парковка",
+  "feedback_by": "Anonim",
   "feedback_to": "Vasya Petrov",
-  "feedback_text": "не помыл посуду после того как поел!",
-  "score": 2
-
+  "feedback_text": "Парковался в неположенном месте",
+  "score": 0
 }
 ###
 
@@ -18,19 +16,19 @@ Content-Type: application/json
 
 
 
-GET http://localhost:9995/feedback/all
+GET http://localhost:9993/feedback/all
 
 ###
-POST http://localhost:9995/feedback/c60546d3-14b3-44c4-ac73-8d4590ccc0eb
+POST http://localhost:9993/feedback/edit/69a39dea-f3b3-4c0c-a0f2-7e33d4fad018
 
-{"feedback_topic": "Мусsор",
-  "feedback_by": "Daria Markova",
-  "feedback_to": "SSSSSSS",
-  "feedback_text": "Увидел, что мусор полон и выкинул",
-  "score": 5
+{"feedback_topic": "Уборка",
+  "feedback_by": "Anonim",
+  "feedback_to": "Alisher Vazilov",
+  "feedback_text": "увидел, что кружки грязные и помыл все!",
+  "score": 10
 }
 ###
-DELETE http://localhost:9995/feedback/e983e081-d68d-4898-815c-ebc0b8dc0027
+DELETE http://localhost:9993/feedback/69a39dea-f3b3-4c0c-a0f2-7e33d4fad018
 
 
 

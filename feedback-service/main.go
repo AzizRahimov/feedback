@@ -50,9 +50,9 @@ func main() {
 	router.POST("/feedback", server.CreateFeedback)
 	router.GET("/feedback/all", server.GetAllFeedbackes)
 	router.DELETE("/feedback/{id}", server.DeleteFeedback)
-	router.POST("/feedback/{id}", server.EditFeedback)
+	router.POST("/feedback/edit/{id}", server.EditFeedback)
 	fmt.Println("Server is listening")
-	panic(http.ListenAndServe("0.0.0.0:9995", server))
+	panic(http.ListenAndServe("0.0.0.0:9993", server))
 }
 
 func (m *MainServer) ServeHTTP(writer http.ResponseWriter, request *http.Request) {
@@ -124,7 +124,7 @@ func (m *MainServer) EditFeedback(w http.ResponseWriter, r *http.Request) {
 	err = json.NewDecoder(r.Body).Decode(&request)
 	if err != nil {
 		w.WriteHeader(http.StatusBadRequest)
-		log.Println("EditFeedback, parcing request error:", err)
+		log.Println("EditFeedback, parching request error:", err)
 		_, err = w.Write([]byte("wrong request"))
 		if err != nil {
 			log.Println("sending response error:", err)
@@ -177,7 +177,7 @@ func (m *MainServer) CreateFeedback(w http.ResponseWriter, r *http.Request) {
 	// request validation
 	if len(request.FeedbackText) < 5 || len(request.FeedbackTo) < 5 ||
 		len(request.FeedbackBy) < 5 || len(request.FeedbackTopic) < 5 {
-		_, err = w.Write([]byte("wrong data")) // передаем байты об ошибке
+		_, err = w.Write([]byte("wrong data"))
 		if err != nil {
 			log.Print(err)
 		}

@@ -154,3 +154,23 @@
 2020/03/21 23:15:57 cant't update feedback:cannot convert 0 to UUID
 2020/03/21 23:15:57 can't update feedback ...cannot convert 0 to UUID
 2020/03/21 23:15:57 http: superfluous response.WriteHeader call from main.(*MainServer).EditFeedback (main.go:103)
+2020/03/22 12:06:31 This is a test log entry
+2020/03/22 12:07:34 This is a test log entry
+2020/03/22 12:08:22 updating feedback error:cannot convert 5 to UUID
+2020/03/22 12:08:22 editing feedback failed:cannot convert 5 to UUID
+2020/03/22 12:14:28 This is a test log entry
+2020/03/22 12:14:58 updating feedback error:cannot convert 5 to UUID
+2020/03/22 12:14:58 editing feedback failed:cannot convert 5 to UUID
+2020/03/22 12:17:26 d33b8945-8061-455f-ab08-8d913791c67e
+2020/03/22 12:28:18 This is a test log entry
+2020/03/22 12:36:20 This is a test log entry
+2020/03/22 13:50:55 This is a test log entry
+2020/03/22 13:52:57 This is a test log entry
+2020/03/22 13:53:31 2aa4f988-e50c-479c-8019-20e1bc6508e0
+2020/03/22 13:54:37 f1c0333f-796a-4a91-bf1a-cb3ad64cd927
+2020/03/23 02:56:26 This is a test log entry
+2020/03/23 03:17:55 This is a test log entry
+2020/03/23 10:01:40 This is a test log entry
+2020/03/23 10:03:33 This is a test log entry
+2020/03/23 10:06:48 This is a test log entry
+2020/03/23 11:04:08 This is a test log entry

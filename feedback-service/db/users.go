@@ -9,7 +9,7 @@ import (
 )
 
 type Service struct {
-	pool *pgxpool.Pool // dependency
+	pool *pgxpool.Pool
 }
 
 func NewService(pool *pgxpool.Pool) *Service {
@@ -17,12 +17,7 @@ func NewService(pool *pgxpool.Pool) *Service {
 }
 
 func (service *Service) Start() {
-	_, err := service.pool.Exec(context.Background(), dropExistingTableFeedback)
-	if err != nil {
-		log.Fatal("removing table feedback error:", err)
-	}
-
-	_, err = service.pool.Exec(context.Background(), createTableFeedback)
+	_, err := service.pool.Exec(context.Background(), createTableFeedback)
 	if err != nil {
 		log.Fatal("creating feedback error:", err)
 	}
@@ -49,7 +44,7 @@ func (service *Service) GetAllFeedback() (models []Feedback, err error) {
 	model := Feedback{}
 	for rows.Next() {
 		err = rows.Scan(
-			&model.ID, &model.FeedbackTopic, &model.FeedbackBy, &model.FeedbackTo, &model.FeedbackText, &model.Score)
+			&model.ID, &model.FeedbackTopic, &model.FeedbackBy, &model.FeedbackTo, &model.FeedbackText, &model.Score, )
 		if err != nil {
 			return
 		}
@@ -68,7 +63,7 @@ func (service *Service) DeleteById(id uuid.UUID) (err error) {
 
 func (service *Service) EditFeedbackByID(model Feedback) (err error) {
 	_, err = service.pool.Exec(context.Background(), editFeedback,
-		model.ID, model.FeedbackTopic, model.FeedbackBy, model.FeedbackTo, model.FeedbackText, model.Score)
+		model.FeedbackTopic, model.FeedbackBy, model.FeedbackTo, model.FeedbackText, model.Score, model.ID)
 	if err != nil {
 		log.Print("updating feedback error:", err)
 	}
